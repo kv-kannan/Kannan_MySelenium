@@ -4,5 +4,5 @@
     <classes>
       <class name="DataDriven1.NewTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 
