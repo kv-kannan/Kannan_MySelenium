@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-20T19:40:55 IST" name="Suite" finished-at="2021-03-20T19:42:09 IST" duration-ms="73284">
+    <groups>
+    </groups>
+    <test started-at="2021-03-20T19:40:55 IST" name="Test" finished-at="2021-03-20T19:42:09 IST" duration-ms="73284">
+      <class name="Week1.Day1.BothCorrect">
+        <test-method signature="loginForm()[pri:0, instance:Week1.Day1.BothCorrect@778d1062]" started-at="2021-03-20T19:41:47 IST" name="loginForm" finished-at="2021-03-20T19:42:09 IST" duration-ms="21892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForm -->
+      </class> <!-- Week1.Day1.BothCorrect -->
+      <class name="Week1.Day1.BothInCorrect">
+        <test-method signature="loginForm()[pri:0, instance:Week1.Day1.BothInCorrect@2b6faea6]" started-at="2021-03-20T19:41:31 IST" name="loginForm" finished-at="2021-03-20T19:41:47 IST" duration-ms="15510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForm -->
+      </class> <!-- Week1.Day1.BothInCorrect -->
+      <class name="Week1.Day1.WrongUserName">
+        <test-method signature="loginForm()[pri:0, instance:Week1.Day1.WrongUserName@1e802ef9]" started-at="2021-03-20T19:41:13 IST" name="loginForm" finished-at="2021-03-20T19:41:31 IST" duration-ms="18490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForm -->
+      </class> <!-- Week1.Day1.WrongUserName -->
+      <class name="Week1.Day1.CorrectUserName">
+        <test-method signature="loginForm()[pri:0, instance:Week1.Day1.CorrectUserName@7f010382]" started-at="2021-03-20T19:40:55 IST" name="loginForm" finished-at="2021-03-20T19:41:13 IST" duration-ms="17282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForm -->
+      </class> <!-- Week1.Day1.CorrectUserName -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
