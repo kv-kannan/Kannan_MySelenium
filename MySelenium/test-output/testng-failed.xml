@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DataDriven4.CorrectUserName(failed)">
     <classes>
-      <class name="Week1.Day1.DataDriven1">
+      <class name="DataDriven4.LoginForm">
         <methods>
           <include name="loginForm"/>
         </methods>
-      </class> <!-- Week1.Day1.DataDriven1 -->
+      </class> <!-- DataDriven4.LoginForm -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- DataDriven4.CorrectUserName(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -3,10 +3,10 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="Week1.Day1.CorrectUserName"/>
-      <class name="Week1.Day1.WrongUserName"/>
-      <class name="Week1.Day1.BothInCorrect"/>
-      <class name="Week1.Day1.BothCorrect"/>
+      <class name="DataDriven1.CorrectUserName"/>
+      <class name="DataDriven1.WrongUserName"/>
+      <class name="DataDriven1.BothInCorrect"/>
+      <class name="DataDriven1.BothCorrect"/>
    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

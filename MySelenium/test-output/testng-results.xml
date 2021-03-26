@@ -2,34 +2,84 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-21T15:14:46 IST" name="Suite" finished-at="2021-03-21T15:16:05 IST" duration-ms="79276">
+  <suite started-at="2021-03-22T14:52:39 IST" name="Suite" finished-at="2021-03-22T14:53:11 IST" duration-ms="31983">
     <groups>
     </groups>
-    <test started-at="2021-03-21T15:14:46 IST" name="Test" finished-at="2021-03-21T15:16:05 IST" duration-ms="79276">
-      <class name="Week1.Day1.BothCorrect">
-        <test-method signature="loginForm()[pri:0, instance:Week1.Day1.BothCorrect@778d1062]" started-at="2021-03-21T15:15:42 IST" name="loginForm" finished-at="2021-03-21T15:16:05 IST" duration-ms="22855" status="PASS">
+    <test started-at="2021-03-22T14:52:39 IST" name="DataDriven4.CorrectUserName" finished-at="2021-03-22T14:53:11 IST" duration-ms="31983">
+      <class name="DataDriven4.LoginForm">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:DataDriven4.LoginForm@1b1473ab]" started-at="2021-03-22T14:52:39 IST" name="beforeTest" finished-at="2021-03-22T14:52:48 IST" duration-ms="9494" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginForm -->
-      </class> <!-- Week1.Day1.BothCorrect -->
-      <class name="Week1.Day1.BothInCorrect">
-        <test-method signature="loginForm()[pri:0, instance:Week1.Day1.BothInCorrect@2b6faea6]" started-at="2021-03-21T15:15:26 IST" name="loginForm" finished-at="2021-03-21T15:15:42 IST" duration-ms="15589" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="allForm(java.lang.String, java.lang.String)[pri:0, instance:DataDriven4.LoginForm@1b1473ab]" started-at="2021-03-22T14:52:49 IST" name="allForm" data-provider="loginData" finished-at="2021-03-22T14:52:52 IST" duration-ms="3227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIRST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginForm -->
-      </class> <!-- Week1.Day1.BothInCorrect -->
-      <class name="Week1.Day1.WrongUserName">
-        <test-method signature="loginForm()[pri:0, instance:Week1.Day1.WrongUserName@1e802ef9]" started-at="2021-03-21T15:15:06 IST" name="loginForm" finished-at="2021-03-21T15:15:26 IST" duration-ms="20819" status="PASS">
+        </test-method> <!-- allForm -->
+        <test-method signature="allForm(java.lang.String, java.lang.String)[pri:0, instance:DataDriven4.LoginForm@1b1473ab]" started-at="2021-03-22T14:52:52 IST" name="allForm" data-provider="loginData" finished-at="2021-03-22T14:52:55 IST" duration-ms="2493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SECOND]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginForm -->
-      </class> <!-- Week1.Day1.WrongUserName -->
-      <class name="Week1.Day1.CorrectUserName">
-        <test-method signature="loginForm()[pri:0, instance:Week1.Day1.CorrectUserName@7f010382]" started-at="2021-03-21T15:14:46 IST" name="loginForm" finished-at="2021-03-21T15:15:05 IST" duration-ms="19887" status="PASS">
+        </test-method> <!-- allForm -->
+        <test-method signature="allForm(java.lang.String, java.lang.String)[pri:0, instance:DataDriven4.LoginForm@1b1473ab]" started-at="2021-03-22T14:52:55 IST" name="allForm" data-provider="loginData" finished-at="2021-03-22T14:52:57 IST" duration-ms="2571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[THIRD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginForm -->
-      </class> <!-- Week1.Day1.CorrectUserName -->
-    </test> <!-- Test -->
+        </test-method> <!-- allForm -->
+        <test-method signature="allForm(java.lang.String, java.lang.String)[pri:0, instance:DataDriven4.LoginForm@1b1473ab]" started-at="2021-03-22T14:52:57 IST" name="allForm" data-provider="loginData" finished-at="2021-03-22T14:53:05 IST" duration-ms="7778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allForm -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:DataDriven4.LoginForm@1b1473ab]" started-at="2021-03-22T14:53:05 IST" name="afterTest" finished-at="2021-03-22T14:53:11 IST" duration-ms="5926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- DataDriven4.LoginForm -->
+    </test> <!-- DataDriven4.CorrectUserName -->
   </suite> <!-- Suite -->
 </testng-results>
